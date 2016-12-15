@@ -28,6 +28,6 @@ Including Plots
 
 You can also embed plots, for example:
 
-![](./images/chunk13-12-2016-pressure-1.png)
+![](../images/chunk13-12-2016-pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
