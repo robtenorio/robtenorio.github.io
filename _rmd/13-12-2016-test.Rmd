@@ -10,7 +10,11 @@ knitr::opts_chunk$set(echo = TRUE, fig.path="../images/")
 
 ## GitHub Documents
 
+This is a test post for me to remember what I did originally. I used Andy South's terrific blog as a guide: http://andysouth.github.io/blog-setup/. Most of this .Rmd file was created by RStudio when I created a new R Markdown file using the predefined GitHub format.
+
 This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+I created a folder called _rmd in the root directory to where I move this .Rmd file. The reason for this is that _posts will contain a .md and a .Rmd file, but the .Rmd file is not well read by GitHub pages. I also added the option fig.path="../images/" to opt_chunk$set() above. This places all my plots in the images folder in the root directory, as seen by the pressure plot below.
 
 ## Including Code
 
