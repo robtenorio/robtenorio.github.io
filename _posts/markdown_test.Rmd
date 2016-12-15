@@ -4,7 +4,7 @@ output: github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, fig.path="./images/")
 ```
 
 ## GitHub Documents
@@ -23,7 +23,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r chunk13-12-2016-pressure, echo=FALSE}
 plot(pressure)
 ```
 
